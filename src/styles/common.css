@@ -1,0 +1,31 @@
+/**
+ ** ********************************************************
+ ** The common defined class
+ ** @file common.css
+ ** @author wenkanglin <wenkang_lin@kingdee.com>
+ ** @date 2018-03-07 17:26:40
+ ** @last_modified_by wenkanglin <wenkang_lin@kingdee.com>
+ ** @last_modified_date 2018-03-22 10:21:06
+ ** @copyright (c) 2018 @yfe/aldnoah-spa
+ ** ********************************************************
+ */
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: '';
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
